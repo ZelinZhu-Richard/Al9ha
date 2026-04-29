@@ -18,7 +18,14 @@ export const NAV_LINKS = [
   { label: "Contact", href: "#contact" },
 ] as const;
 
-export const PIPELINE_NODES = [
+export type PipelineNode = {
+  readonly id: string;
+  readonly label: string;
+  readonly highlight?: string;
+  readonly description: string;
+};
+
+export const PIPELINE_NODES: readonly PipelineNode[] = [
   {
     id: "ingestion",
     label: "Ingestion",
