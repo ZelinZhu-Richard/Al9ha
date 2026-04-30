@@ -6,7 +6,7 @@ export function Team() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionReveal>
           <p className="font-mono text-xs uppercase tracking-[0.3em] text-accent-cyan">
-            07 / Team
+            06 / Team
           </p>
           <h2 className="mt-4 max-w-3xl text-balance text-4xl tracking-tight sm:text-5xl">
             Built by researchers, for researchers.

@@ -1,9 +1,5 @@
-import { SITE } from "@/lib/constants";
-
 const LINKS = [
-  { label: "GitHub", href: SITE.github },
   { label: "Research Blog", href: "#" },
-  { label: "Docs", href: SITE.github },
   { label: "Contact", href: "#contact" },
 ];
 

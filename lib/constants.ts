@@ -4,7 +4,6 @@ export const SITE = {
   description:
     "Al9ha — AI-native research operating system for evidence-backed equity research and approval-gated paper trading.",
   url: "https://al9ha.com",
-  github: "https://github.com/ZelinZhu-Richard/Nexus-Tensor-Alpha",
   email: "hello@al9ha.com",
 } as const;
 
@@ -14,7 +13,6 @@ export const NAV_LINKS = [
   { label: "Roadmap", href: "#roadmap" },
   { label: "Stack", href: "#stack" },
   { label: "Philosophy", href: "#philosophy" },
-  { label: "Open Source", href: "#open-source" },
   { label: "Contact", href: "#contact" },
 ] as const;
 

@@ -17,14 +17,14 @@ export function Contact() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionReveal>
           <p className="font-mono text-xs uppercase tracking-[0.3em] text-accent-cyan">
-            08 / Contact
+            07 / Contact
           </p>
           <h2 className="mt-4 max-w-3xl text-balance text-4xl tracking-tight sm:text-5xl">
             Let&apos;s talk.
           </h2>
         </SectionReveal>
 
-        <div className="mt-14 grid gap-5 lg:grid-cols-3">
+        <div className="mt-14 grid gap-5 lg:grid-cols-2">
           <SectionReveal delay={0.05}>
             <GlowCard className="h-full p-6">
               <div className="font-mono text-xs uppercase tracking-wider text-accent-cyan">
@@ -39,26 +39,6 @@ export function Contact() {
                 className="mt-5 inline-flex items-center gap-2 font-mono text-sm text-accent-cyan hover:underline"
               >
                 investors@al9ha.com →
-              </a>
-            </GlowCard>
-          </SectionReveal>
-
-          <SectionReveal delay={0.1}>
-            <GlowCard accent="gold" className="h-full p-6">
-              <div className="font-mono text-xs uppercase tracking-wider text-accent-gold">
-                Researchers
-              </div>
-              <p className="mt-3 text-sm leading-relaxed text-text-muted">
-                Want to contribute to the open-source research OS? Start with
-                the issues, or open one of your own.
-              </p>
-              <a
-                href={SITE.github}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-5 inline-flex items-center gap-2 font-mono text-sm text-accent-gold hover:underline"
-              >
-                contribute on github →
               </a>
             </GlowCard>
           </SectionReveal>

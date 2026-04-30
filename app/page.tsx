@@ -5,7 +5,6 @@ import { Pipeline } from "@/components/Pipeline";
 import { WhatsReal } from "@/components/WhatsReal";
 import { TechStack } from "@/components/TechStack";
 import { Philosophy } from "@/components/Philosophy";
-import { OpenSource } from "@/components/OpenSource";
 import { Team } from "@/components/Team";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
@@ -20,7 +19,6 @@ export default function Home() {
       <WhatsReal />
       <TechStack />
       <Philosophy />
-      <OpenSource />
       <Team />
       <Contact />
       <Footer />

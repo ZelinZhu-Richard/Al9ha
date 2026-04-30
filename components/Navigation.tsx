@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { NAV_LINKS, SITE } from "@/lib/constants";
+import { NAV_LINKS } from "@/lib/constants";
 
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);
@@ -38,14 +38,6 @@ export function Navigation() {
               {l.label}
             </a>
           ))}
-          <a
-            href={SITE.github}
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-md border border-border-strong bg-bg-elevated px-3 py-1.5 font-mono text-xs text-text transition-colors hover:border-accent-cyan hover:text-accent-cyan"
-          >
-            GitHub →
-          </a>
         </div>
         <button
           aria-label="Toggle menu"
@@ -70,14 +62,6 @@ export function Navigation() {
                 {l.label}
               </a>
             ))}
-            <a
-              href={SITE.github}
-              target="_blank"
-              rel="noreferrer"
-              className="text-sm text-accent-cyan"
-            >
-              GitHub →
-            </a>
           </div>
         </div>
       )}

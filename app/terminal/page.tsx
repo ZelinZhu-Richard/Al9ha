@@ -22,7 +22,6 @@ const SECTIONS = [
   "roadmap",
   "stack",
   "philosophy",
-  "open-source",
   "team",
   "contact",
 ];

@@ -53,7 +53,6 @@ export default function RootLayout({
               name: SITE.name,
               url: SITE.url,
               description: SITE.description,
-              sameAs: [SITE.github],
             }),
           }}
         />
